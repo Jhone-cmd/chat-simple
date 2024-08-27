@@ -144,7 +144,7 @@ h1 {
         display: flex;
         flex: 1;
         flex-direction: column;        
-        max-height: calc(100vh - 210px);
+        max-height: calc(100vh - 160px);
     }
     
     #chatList {
@@ -152,6 +152,7 @@ h1 {
         align-items: baseline;
         overflow-y: scroll;
         list-style-type: none;
+        margin-left: 1vh;
         padding: 5px;
     }
     
@@ -160,7 +161,7 @@ h1 {
         font-size: 15px;
         font-weight: bolder;
         margin-left: 2vh;
-        margin-top: 72vh;
+        margin-top: 81vh;
         padding: 2px;
     }
     
@@ -170,24 +171,9 @@ h1 {
         font-size: 26px; 
         padding: 10px;
         width: 95%;
-        margin-top: 75vh;
+        margin-top: 85vh;
         border-radius: 10px;
         margin-left: 10px;
         background-color: rgb(255, 255, 255);
-    }
-    
-    #send { 
-        position: fixed;
-        margin-left: 10px;
-        margin-top: 85vh;
-        display: flex;
-        width: 95%;
-        flex-direction: column;
-        padding: 10px;
-    }
-    
-    #send:hover {
-        cursor: pointer;
-        background-color: #1ae435;
     }
 }
