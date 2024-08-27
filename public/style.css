@@ -104,7 +104,7 @@ h1 {
     background-color: #1ae435;
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 480px) {
     #container {
         background-color: rgb(221, 220, 220);
         display: flex;
@@ -121,7 +121,7 @@ h1 {
     #username {
         text-align: center;
         font-size: 26px;
-        width: 400px;
+        width: 350px;
         border-radius: 10px;
         padding: 10px;
         background-color: rgb(255, 255, 255);
@@ -129,7 +129,7 @@ h1 {
 
     #login {
         font-size: 26px;
-        width: 400px;
+        width: 350px;
         border-radius: 10px;
         background-color: #00ff22;
         font-family: 'Times New Roman', Times, serif;
@@ -144,11 +144,12 @@ h1 {
         display: flex;
         flex: 1;
         flex-direction: column;        
-        max-height: calc(100vh - 150px);
+        max-height: calc(100vh - 160px);
     }
     
     #chatList {
         flex: 1;
+        align-items: baseline;
         overflow-y: scroll;
         list-style-type: none;
         padding: 5px;
@@ -158,19 +159,19 @@ h1 {
         position: fixed;
         font-size: 15px;
         font-weight: bolder;
-        margin-left: 10px;
-        margin-top: 83vh;
+        margin-left: 8vh;
+        margin-top: 81vh;
         padding: 2px;
     }
     
     #messageInput {
         position: fixed;
         flex: 1;
-        font-size: 26px;
-        width: 400px;
-        align-items: center;
-        justify-content: center;   
+        margin-left: 8vh;
+        margin-top: 84vh;
+        font-size: 26px; 
         padding: 10px;
+        width: 350px;
         border-radius: 10px;
         background-color: rgb(255, 255, 255);
     }
@@ -178,12 +179,11 @@ h1 {
     #send { 
         position: fixed;
         display: flex;
+        width: 350px;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        width: 350px;
+        margin-left: 8vh;
         padding: 10px;
-        margin-left: 10px;
-        margin-top: 93vh;
     }
     
     #send:hover {
