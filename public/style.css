@@ -138,6 +138,7 @@ h1 {
 
     #chat {
         display: flex;
+        overflow-y: scroll;
     }
     
     .chatArea {
